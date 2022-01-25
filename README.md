@@ -47,3 +47,6 @@ export default {
 </style>
 
 ```
+
+# 效果
+![image](https://user-images.githubusercontent.com/982484/150922417-d3cc7608-3732-4017-9017-c53c8a408bd9.png)
