@@ -3,7 +3,6 @@
 </template>
 
 <script>
-import Axios from "axios";
 
 export default {
 	name: "RemoteComponent",
@@ -32,7 +31,8 @@ export default {
 				}
 				let res;
 				if (!window.SyncComponentCache[this.url]) {
-					window.SyncComponentCache[this.url] = Axios.get(this.url);
+					console.log('url '+this.url);
+					window.SyncComponentCache[this.url] = this.axios.get(this.url);
 					res = await window.SyncComponentCache[this.url];
 				} else {
 					res = await window.SyncComponentCache[this.url];
