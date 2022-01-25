@@ -1,4 +1,4 @@
-# remote-component-compiler
+# vue-remote-component
 
 > 加载远程组件
 
